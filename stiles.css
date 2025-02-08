@@ -8,10 +8,10 @@ body {
     margin: 0;
 }
 .container {
-    position: absolute;
-    top: 85%;
+    position: fixed;
+    top: 75%;
     left: 80%;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -30%);
     width: min(90vw, 600px);
     height: min(90vh, 600px);
 }
