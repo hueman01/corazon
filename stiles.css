@@ -10,13 +10,13 @@ body {
 .container {
     position: fixed;
     top: 75%;
-    left: 80%;
+    left: 60%;
     transform: translate(-40%, -30%);
-    width: min(90vw, 600px);
-    height: min(90vh, 600px);
+    width: min(80vw, 500px);
+    height: min(80vh, 500px);
 }
 .text {
-    position: absolute;
+    position: fixed;
     color: pink;
     font-size: clamp(8px, 2vw, 18px);
     font-weight: bold;
