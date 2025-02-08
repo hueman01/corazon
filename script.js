@@ -1,6 +1,6 @@
 const container = document.getElementById("heart-container");
-        const text = "Fer";
-        const numElements = 150;
+        const text = "hija hermosa";
+        const numElements = 200;
         const speed = 0.002;
         let spans = [];
         
@@ -11,7 +11,7 @@ const container = document.getElementById("heart-container");
         }
         
         function getScaleFactor() {
-            return Math.min(window.innerWidth, window.innerHeight) / 40;
+            return Math.min(window.innerWidth, window.innerHeight) / 30;
         }
         
         function createHeart() {
@@ -41,6 +41,9 @@ const container = document.getElementById("heart-container");
             requestAnimationFrame(animateHeart);
         }
         
-        window.addEventListener("resize", createHeart);
+        window.addEventListener("resize", () => {
+            createHeart();
+        });
+        
         createHeart();
         animateHeart();
